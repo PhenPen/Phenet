@@ -1,6 +1,6 @@
 import speedtest
 
-st = speedtest.Speedtest()
+st = speedtest.Speedtest(secure=False) # secure=False to avoid SSL issues on some systems and return http instead of https
 
 print("Finding best server...")
 bestServer = st.get_best_server()
