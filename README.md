@@ -15,6 +15,10 @@ Measures:
 
 - Ping/Latency (ms)
 
+Speeds can be copied to clipboard
+
+- You can select to copy or not by selecting either y or n when prompt or message to copy comes up
+
 ## Has:
 
 Python script: Phenet.py
