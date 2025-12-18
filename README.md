@@ -1,9 +1,9 @@
-## Phen Internet Speed Checker
+## Phenet
 
 A simple Python tool that measures your Download Speed, Upload Speed, and Ping using the speedtest-cli module.
 This project also includes a Windows .exe version so you can run it without Python.
 
-##  Features
+## Features
 
 Finds the best available server for accurate testing
 
@@ -17,9 +17,9 @@ Measures:
 
 ## Has:
 
-Python script: phen_InternetChecker.py
+Python script: Phenet.py
 
-Standalone executable: phen_InternetChecker.exe
+Standalone executable: Phenet.exe
 
 ## Requirements (for Python version)
 
@@ -28,8 +28,8 @@ Install speedtest-cli:
 pip install speedtest-cli
 
 ## How to Run the Script
-python phen_InternetChecker.py
 
+python Phenet.py
 
 ## Output example:
 
@@ -47,18 +47,14 @@ Ping: 61 ms
 
 Double-click:
 
-phen_InternetChecker.exe
-
+Phenet.exe
 
 That’s it — it opens and runs the speed test from your terminal automatically.
 
-
-
-
 ## What Are Ping & Latency?
 
-| Term              | Meaning                                                 |
-|-------------------|---------------------------------------------------------|
-| Download Speed    | How fast you receive data (videos, pages, files)        |
-| Upload Speed      | How fast you send data (uploads, sending files)         |
-| Ping / Latency    | How long it takes for your request to reach the server and come back |
+| Term           | Meaning                                                              |
+| -------------- | -------------------------------------------------------------------- |
+| Download Speed | How fast you receive data (videos, pages, files)                     |
+| Upload Speed   | How fast you send data (uploads, sending files)                      |
+| Ping / Latency | How long it takes for your request to reach the server and come back |
